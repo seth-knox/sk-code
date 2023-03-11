@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Unplugged Retreat</title>
+  <title>Seth Knox | Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,15 +29,18 @@
   <header>
     <div class="content-wrapper">
       <figure>
-        <a href="#">
-          <img src="img/unpluggedlogo.png" alt="unplugged logo">
-        </a>
+        <h1>sk code</h1>
       </figure>
       <div class="header-divider"></div>
       <nav>
         <ul>
-          <li><a href="faq/index.html" target="_self">FAQ</a></li>
-          <li><a href="about/index.html" target="_self">About</a></li>
+          <li><a href="#projects" target="_self">Projects</a></li>
+          <li>|</li>
+          <li><a href="#skills" target="_self">Skills</a></li>
+          <li>|</li>
+          <li><a href="#about" target="_self">About</a></li>
+          <li>|</li>
+          <li><a href="#contact" target="_self">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -47,92 +50,111 @@
 
     <section class="hero-area">
       <div class="content-wrapper">
-        <h1> Retreat from the desk, return refreshed.</h1>
+        <h1> Hi, I'm Seth Knox - a front end developer who builds accessible and responsive user experiences.</h1>
       </div>
     </section>
 
-    <aside>
+    <section class="features" id="projects">
       <div class="content-wrapper">
-        <div class="form-description">
-          <h3> Want to join the next retreat?</h3>
-          <p>
-            Find out when we are holding our next retreat and how your company or team can sign up!
-          </p>
-        </div>
-        <div class="form">
-          <h3>Find out more</h3>
-          <input type="text" name="name" value="email address">
-          <input type="button" value="Download Itinerary">
-        </div>
-      </div>
-      <!-- aside content wrapper ends -->
-    </aside>
-
-    <section class="features">
-      <div class="content-wrapper">
-        <!-- Add your Features content here -->
-        <h2> Have the work week you always dreamed of - without the bad wifi.</h2>
+        <h2> Projects</h2>
         <div class="features-items">
           <article>
             <p class="fontawesome-icon">
-              <i class="fas fa-campground"></i>
+              <a href="https://seth-knox.github.io/unplugged-website/" target="_blank"><img
+                  src="img/unplugged-website.png" alt="Unplugged Site"></a>
+              </p>
+            <h4>Unplugged Retreat</h4>
+            <p class="features-item-description">A multi-page responsive website coded with Flexbox built from a design
+              comp. This versatile design includes google maps integration.
+              <br><br>
+              <b>Skills</b>: CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
+              <br><br>
+              <b>Tools</b>: GitHub, Text editor, Git, Chrome DevTools
             </p>
-            <p class="features-item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
           </article>
           <article>
             <p class="fontawesome-icon">
-              <i class="fas fa-bed"></i>
+              <a href="https://kyxf5k.csb.app/" target="_blank"><img src="img/sticky-notes-app.png"
+                  alt="Sticky Note App"></a>
             </p>
-            <p class="features-item-description">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4
-              breakout rooms.</p>
+            <h4>Sticky Note App</h4>
+            <p class="features-item-description">An interactive app that will let users add, edit, delete, and store “sticky notes” on their
+              computer to keep track of to-do items. Sticky note data is stored locally on the browser.
+              <br><br>
+              <b>Skills</b>: React.JS, ES6, JSX, Managing data flow, DOM Manipulation
+              <br><br>
+              <b>Tools</b>: CodeSandbox
+            </p>
           </article>
           <article>
             <p class="fontawesome-icon">
-              <i class="fas fa-utensils"></i>
+              <a href="https://seth-knox.github.io/guess-the-word-game/" target="_blank"><img
+                  src="img/guess-the-word.png" alt="Guess the Word Game"></a>
             </p>
-            <p class="features-item-description">Private chef team providing on demand meals - just like your team
-              kitchen.</p>
+            <h4>Guess the Word</h4>
+            <p class="features-item-description">This game logic was coded using vanilla JavaScript. Players guess the word by entering
+              one letter at a time. If the player guesses all the letters correctly before they use up all of their allowed
+              guesses, they win!
+              <br><br>
+              <b>Skills</b>: DOM Manipulation, JavaScript, APIs, JSON files
+              <br><br>
+              <b>Tools</b>: GitHub, Text editor, Git
+            </p>
           </article>
           <article>
             <p class="fontawesome-icon">
-              <i class="fas fa-shoe-prints"></i>
+              <a href="https://seth-knox.github.io/github-repo-gallery-main/" target="_blank"><img
+                  src="img/github-repo-gallery.png" alt="GitHub Repo Gallery"></a>
             </p>
-            <p class="features-item-description">5 outdoor obstacle courses, including a private beach 1/2 mile from
-              bungalow.</p>
-          </article>
-          <article>
-            <p class="fontawesome-icon">
-              <i class="fas fa-smile"></i>
+            <h4>GitHub Repo Gallery</h4>
+            <p class="features-item-description">The GitHub Repo Gallery uses the GitHub API to pull data and feature
+              all of my public
+              repos on one page. Coded with JavaScript to allow users to search for specific repos and explore source
+              code on
+              GitHub.
+              <br><br>
+              <b>Skills</b>: APIs, DOM Manipulation, and JavaScript
+              <br><br>
+              <b>Tools</b>: GitHub, Text editor, Git, Chrome DevTools
             </p>
-            <p class="features-item-description">Retreat facilitator to manage your day to day activities so you all get
-              a
-              chance to reset.</p>
-          </article>
-          <article>
-            <p class="fontawesome-icon">
-              <i class="fas fa-wifi"></i>
-            </p>
-            <p class="features-item-description">Dedicated computer room for times that you must wifi.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="reviews">
+    <section class="about-me" id="skills">
       <div class="content-wrapper">
-        <h2>Be a better team in 5 days, like these.</h2>
+        <article>
+          <article>
+            <figure>
+              <img src="img/skills-img.png" alt="tool and gear">
+            </figure>
+            <div>
+              <h2>Skills</h2>
+              <p>HTML5 | CSS3 | JavaScript | ES6 | React | JSX | Flexbox | Responsive Web Design | DOM Manipulation | APIs |
+                Data Flow Management | Debugging | Accessibility Standards
+              </p>
+              <h2>Tools</h2>
+              <p>
+                Git | GitHub | CodeSandBox | Visual Studio Code | Chrome DevTools | Photoshop
+              </p>
+            </div>
+          </article>
+      </div>
+    </section>
+
+    <section class="about-me" id="about">
+      <div class="content-wrapper">
         <article>
           <figure>
-            <a href="#">
-              <img src="img/omar-lopez-296944-unsplash.jpg" alt="unplugged logo">
-            </a>
+            <img src="img/head-shot.jpg" alt="head shot mountain backdrop">
           </figure>
           <div>
-            <h3>LaCrue Bottling Co. October 2018</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur.
+            <h2>About Me</h2>
+            <p>
+              As a front end developer and former educator this career allows me to merge my passions for creativity and technology
+              integration that stimulates growth and continuous self-learning. When I'm offline you can find me running,
+              reading, or exploring the outdoors in Kalispell, Montana - the door step of Glacier National Park - with my son.
             </p>
           </div>
         </article>
@@ -145,25 +167,26 @@
   <footer>
     <div class="content-wrapper">
       <div class="footer-content">
-        <div class="contact">
-          <h4> Contact</h4>
+        <div class="contact" id="contact">
+          <h2> Contact</h2>
           <address>
-            <p>555-555-555 <br>
-              <a href="mailto: hello@unplugged.com">hello@unplugged.com</a>
+            <p>
+              <a href="mailto: seth.leighton.knox@gmail.com">seth.leighton.knox [@] gmail.com</a>
             </p>
           </address>
         </div>
         <div class="social">
-          <h4> Social</h4>
+          <h2> Social</h2>
           <div class="social-icons">
             <p>
-              <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/in/sethlknox/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </p>
             <p>
-              <a href="https://www.instagram.com" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://github.com/seth-knox" target="_blank"><i class="fa-brands fa-github"></i></a>
             </p>
             <p>
-              <a href="https://www.twitter.com" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://instagram.com/sk.code1?igshid=YmMyMTA2M2Y=" target="_blank"><i
+                  class="fa-brands fa-instagram"></i></a>
             </p>
           </div>
         </div>
@@ -173,7 +196,7 @@
     <!--footer content-wrapper ends-->
 
     <div class="copyright">
-      <p> Copyright 2023 | Unplugged</p>
+      <p> © 2023 | Seth Knox</p>
     </div>
   </footer>
 
