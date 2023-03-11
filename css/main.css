@@ -203,6 +203,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  padding-right: 15%;
 }
 
 header nav ul {
@@ -327,6 +328,10 @@ footer .copyright {
   margin-bottom: 40px;
 }
 
+.features img {
+  border-radius: 5%;
+}
+
 /* About Me */
 
 .about-me {
@@ -353,6 +358,13 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-me p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
 }
 
 .about-me img {
@@ -489,6 +501,7 @@ footer .copyright {
 
   header nav {
     width: 70%;
+    padding-right: 0%;
   }
 
   header nav ul {
