@@ -297,6 +297,14 @@ footer .copyright {
   align-items: center;
 }
 
+.features h4 {
+  color: #CAC691;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .features article {
   width: 63%;
   margin: 30px 0;
@@ -514,10 +522,11 @@ footer .copyright {
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
+    text-align: left;
   }
 
   .features .features-item-description {
-    width: 62%;
+    width: 90%;
   }
 
   /* About Me */
@@ -598,7 +607,7 @@ footer .copyright {
 
   h3,
   h4 {
-    font-size: 1.875em;
+    font-size: 1.5em;
   }
 
   p {
