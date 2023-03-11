@@ -323,7 +323,7 @@ footer .copyright {
 }
 
 .features i {
-	font-size: 3.75em;
+  font-size: 3.75em;
   margin-bottom: 40px;
 }
 
@@ -358,8 +358,8 @@ footer .copyright {
 .about-me img {
   border-radius: 25%;
   max-width: 75%;
-  
-  
+
+
 }
 
 
@@ -529,6 +529,10 @@ footer .copyright {
     width: 90%;
   }
 
+  .features img {
+    max-width: 75%;
+  }
+
   /* About Me */
   .about-me article {
     display: flex;
@@ -632,9 +636,6 @@ footer .copyright {
   }
 
   /* About Me */
-  .about-me h2 {
-    padding-bottom: 50px;
-  }
 
   .about-me article div {
     width: 42%;
